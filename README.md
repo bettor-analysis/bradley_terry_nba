@@ -1,2 +1,5 @@
-# bradley_terry_nba
-  a bradley terry model with scraped data from basketball reference
+# NBA Bradley-Terry Model in R
+
+This R script implements the Bradley-Terry model to predict outcomes of NBA games. It begins by scraping data from basketball-reference.com for a specified NBA year, focusing on monthly game results. This data is then used to construct a logistic regression model based on the Bradley-Terry approach, which assesses team performance through pairwise comparisons. 
+
+The essence of the model lies in estimating the probability of one team winning against another, calculated using point differentials between teams. Additionally, the script features functionality to rank teams based on their calculated odds ratios, reflecting their likelihood of winning. Users can easily deploy the script to predict winners of specific match ups, providing an insightful tool for analyzing NBA game outcomes based on historical data.
